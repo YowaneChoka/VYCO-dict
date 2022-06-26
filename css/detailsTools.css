@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    /* background-color: #000; */
+}
+
+html body {
+    display: flexbox;
+    margin-top: 10%;
+    padding-top: 10px;
+}
+
+main h1 {
+    font-family: Arial;
+    color: red;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.wrapper section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 20px 0;
+}
+
+.wrapper section .item {
+    padding: 0 2px;
+    transition: 250ms all;
+}
+
+.wrapper section .item:hover {
+    margin: 0 40px;
+    transform: scale(1.2);
+}
+
+.wrapper section a {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    font-size: 6em;
+    background: rgb(0, 0, 0);
+    width: 80px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+.break {
+    flex-basis: 100%;
+    width: 0;
+}
+
+.wrapper section a:nth-of-type(1) {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.wrapper section a:nth-of-type(2) {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.item {
+    width: 100%;
+    height: 100px;
+    /* background: red; */
+}
+
+.readOnly {
+    /* height: 300px; */
+}
+
+
+/* // Remove the arrow for Mobile */
+
+@media only screen and (max-width: 600px) {
+    a.arrow__btn {
+        display: none;
+    }
+}
+
+
+/* .readOnly {
+    width: 100%;
+} */
+
+fieldset {
+    width: 80%;
+    margin: 10px auto;
+}
+
+img {
+    width: 100%;
+    aspect-ratio: 1 /1;
+}
+
+li {
+    max-width: 150px;
+}
+
+main ul {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    max-width: 80vw;
+}
+
+main ul li {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+main ul li:hover {
+    background-color: #777;
+}
+
+#isEdit {
+    background: green;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    margin-left: 10%;
+}
+
+main #submit-btn {
+    background: green;
+    width: 90px;
+}
+
+main input {
+    background: var(--secondary-background-color);
+}
+
+.buy-icon {
+    width: 60px;
+    background: white;
+}
+
+main #delete {
+    background: red;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    margin-left: 10%;
+}

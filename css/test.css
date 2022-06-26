@@ -1,18 +1,16 @@
-.front-view{
+.front-view {
     background-color: rgb(168, 196, 255);
     padding: 20px;
     width: 80vw;
     max-width: 100%;
-    
     align-self: center;
+    display: table;
 }
 
-.back-view{
+.back-view {
     background-color: pink;
     padding: 20px;
     width: 80vw;
     max-width: 100%;
     align-items: center;
-    
 }
-

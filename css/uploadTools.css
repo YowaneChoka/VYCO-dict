@@ -1,0 +1,64 @@
+* {
+    margin: 10px auto;
+    /* display: none; */
+}
+
+fieldset {
+    margin: auto auto;
+    width: 80vw;
+}
+
+label {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.icon,
+.url {
+    height: 20px;
+    box-sizing: border-box;
+    vertical-align: center;
+}
+
+label,
+input {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.break {
+    flex-basis: 100%;
+    width: 0;
+}
+
+#submit {
+    display: block;
+}
+
+.desc {
+    margin: unset;
+}
+
+html body {
+    margin-top: 10%;
+    padding-top: 10px;
+}
+
+
+/* input,
+textarea {
+    background-color: #101016;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+} */
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #43b64c;
+    border-color: white;
+    min-width: 300px;
+}
