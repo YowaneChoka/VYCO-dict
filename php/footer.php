@@ -15,19 +15,19 @@
         
         <ul class="list social-media">
             <li class="list-item">
-                <a href="https://www.instagram.com/veronicataniia/" target=”_blank” class="list-link"><i class="ri-instagram-line"></i></a>
+                <a href="https://www.instagram.com/yowanechoka/" target=”_blank” class="list-link"><i class="ri-instagram-line"></i></a>
             </li>
             <li class="list-item">
-                <a href="https://www.facebook.com/veronica.tania.794" target="_blank" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                <a href="https://www.facebook.com/yowane.choka/" target="_blank" class="list-link"><i class="ri-facebook-circle-line"></i></a>
             </li>
             <li class="list-item">
-                <a href="https://pin.it/3N0HF1f" target="_blank" class="list-link"><i class="ri-pinterest-line"></i></a>
+                <a href="https://github.com/YowaneChoka/" target="_blank" class="list-link"><i class="ri-github-line"></i></a>
             </li>
             <li class="list-item">
-                <a href="mailto:a1073326@mail.nuk.edu.tw" target="_blank" class="list-link"><i class="ri-mail-line"></i></a>
+                <a href="mailto:cyowane@gmail.com" target="_blank" class="list-link"><i class="ri-mail-line"></i></a>
             </li>
             <li class="list-item">
-                <a href="https://tw.linkedin.com/in/veronica-tania-1b96a41a8?" target="_blank" class="list-link"><i class="ri-linkedin-line"></i></a>
+                <a href="https://www.linkedin.com/in/yowane-choka-b41353239/" target="_blank" class="list-link"><i class="ri-linkedin-line"></i></a>
             </li>
         </ul>
 
