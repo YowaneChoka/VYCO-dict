@@ -9,12 +9,12 @@
 
 <?php
 
-$connect = OpenCon();
+// $connect = OpenCon();
 
 //$sqlTest = "INSERT INTO USER(ISADMIN,UEMAIL,TYPE_ID) VALUES ('0','JANCOK@TETEK.COM','1');";
 //echo 'Jnacok'.insert($connect, $sqlTest);
 
-CloseCon($connect);
+// CloseCon($connect);
 ?>
 
 <?php

@@ -52,7 +52,7 @@
         }
     </script>
 
-    <nav class="navbar hcontainer" onload="myFun()">
+    <nav class="navbar hcontainer" >
         <a href="./index.php">
             <h2 class="logo">VYCO</h2>
             <!-- <img src="../Image/vyconew.png" class="logo" alt="VYCO"> -->

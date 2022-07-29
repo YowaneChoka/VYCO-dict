@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="../css/form.css">
 
   
-  <title>Transparent form</title>
+  <title>Login</title>
 </head>
 
 <body>
@@ -58,10 +58,10 @@
       <form class="login" action="./exeLogin.php" method="post">
 
         <div class="formGroup">
-          <input type="email" placeholder="Email ID" name="email" required autocomplete="off">
+          <input type="email" placeholder="Email ID" name="email" required autocomplete="on">
         </div>
         <div class="formGroup">
-          <input type="password" id="password" placeholder="Password" name="pw" required autocomplete="off">
+          <input type="password" id="password" placeholder="Password" name="pw" required autocomplete="on">
 
         </div>
         <div class="formGroup">
